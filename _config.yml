@@ -1,0 +1,65 @@
+# main text of home
+name: Marek Kohn
+bio: Welcome to my personal homepage.
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.png
+
+url: http://makohn.de
+
+permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+twitter: makohn_
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: marekkohn
+# youtube: myyoutube
+# spotify: myspotify
+github: makohn
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# vimeo: myvimeo
+email: info@makohn.de
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: large
+
+# Sections
+projects: false
+about: true
+blog: false
+
+# options
+read-time: true
+show-tags: true
+related: true
+blog-nav-links: false
+show-author: true
+animation: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+plugins:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com

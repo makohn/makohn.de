@@ -1,4 +1,5 @@
 ---
+title: Dashboard
 layout: page
-title: Home
 ---
+
