@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/mkohn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://makohn.de
+  * I am mkohn (https://keybase.io/mkohn) on keybase.
+  * I have a public key with fingerprint 7CF2 E465 5B2A E44A 4029  838A 8D78 7FFE B375 194B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101eaa09aa3f081c358aa2e8b3251a469218fea123c52dac317a66d45fb751bcca30a",
+      "fingerprint": "7cf2e4655b2ae44a4029838a8d787ffeb375194b",
+      "host": "keybase.io",
+      "key_id": "8d787ffeb375194b",
+      "kid": "0101eaa09aa3f081c358aa2e8b3251a469218fea123c52dac317a66d45fb751bcca30a",
+      "uid": "4c13b2e99916d836fdf579f0a3f26219",
+      "username": "mkohn"
+    },
+    "service": {
+      "hostname": "makohn.de",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522446504,
+  "expire_in": 157680000,
+  "prev": "52f38ca87ee9643fe33811c8e3d1e4efd869855e5d3def2b3aaec5ebb4fb117b",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMHFUYXV4p3Yg8ohBi0TBJLbQLmfdjpRUDiAVLCkWqK7C5M3MHpsDOdh+U
+LWCT8rBQEBpDakvV0HaJrQW3LmkpQVS0alokApIqaX1l5ZUWhSW1IkVniPzzp/fP
+zT3fOeeee3Lbw4J0oQGtVUfWvM7Y7ICbc7zONOTprUZ4RXQhxmqkDK5vsFyEdoe5
+TBYRI4JiKAYBQDkACAllMYGgWABwyPIETmGApDkcYyUIMJwQKFwEAoExgKZFkpJ4
+hsJ4QQAEChADIsmWEmiz2mSLQ7VlBAmHJE1RPA4gSQISxTmWYAErMiwjSZAnVDFH
+8qqwVLFrCjUcD+wwWVZUTD2Y1+P9B/9/zu1ctyMFjOBxyHEcRossQUuiRDGchKrm
+OI1jnEa0Q5sFVECVXVGmlFqQWgOiQpWyALVWtWdsjIE2TxahqrLaFIciKOUqXOpw
+WI2ayuGyarRDkDf/a2DmZYuoFqgKKqHNLisWxIipTMEha44YheOk2iZKGhBYZZVt
+0CxrDIqhWVRd2jWwUrWkcIlgBcAyEHI0mUtIkCBYDBNYSIgYJKEksjTHUhSkREKE
+Es4TAECBgjxPSjyGMVq/dnjQoiBGSs0JSlRPu1xiAQ6nDSK1+qZAIlgXEKqLi44P
+rlnywVe3+7JSE+uaNz5dSKD243T6zREbiJsNXw3tnb12r28Z64wq2P7rSONLy1Fr
+4ZHvVL8yURAhX8kYG0ipGbLsjDy6J/1y9/hYx5XXQa3OhCadevbkB/Y7m6ov1K/8
+/nllVtoE2zefs+PQVWwYkL3tBun24UI9PXta2JdqVaL7Krf4DhxfLApivPq/TjRf
+vOYdLC799pvH77Vl8FVhg/lb9+euTg3F1bjGY3/8MOsSmfDkzKd8vKFuLW732dn+
+9McGTqye7HFdGvzOtTPPEzHo79ox6QlP3uVu6khZ/ok6/8DZ+m6f4vY4M8WPDQdG
+x59fGt7l3ez2miTHQ5dpKSmqe63V3BWbC3XxI4V1S8F0+XPlXFHCZ+63Yxoe/tLG
+wcQfmCTL9MXlsKtM2hvfj7wIn5g6l/FmXuno6f7MCWPu2N7DC3d9W/PEp794Svyz
+Kj2uvu367qH7j7Z4b9yMDY5JKu56L9abreRXRBbuX7ne6Z+sGDZEByoNe2rBA6Y5
+reGrR85/vTBG3p4pnvoj9ZSn3OR7oU4f1JxdvJjfWDM3CdY27dUXoe8f7KbS91X4
+CiZDzvx2rsM3ELKta77ev+W1o9MdPebiT2i/1+TxT71cdCxGP3o5pzMHFZ2pfv+M
+sFw1/bc7L679ArJyq2es55nou/cTR5ravVnO8JaUs2/d0M9nNm5j7R+dmaqe+zny
+yPGQxWMZXy4sJnTd6U8mb7X8Aw==
+=SPXj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mkohn
+
+==================================================================
