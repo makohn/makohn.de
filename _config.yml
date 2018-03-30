@@ -35,6 +35,9 @@ email: info@makohn.de
 # normal = 560px / large = 810px
 width: large
 
+# Make .well-known folder accessible
+include: [".well-known"]
+
 # Sections
 projects: false
 about: true
