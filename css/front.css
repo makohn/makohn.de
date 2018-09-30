@@ -132,4 +132,14 @@ footer {
   .content {
     padding-top: 60px;
   }
+
+ footer {
+  font-size: 1em;
+    margin: 10px;
+    position: relative;
+  }
+
+  .ref {
+    border: none;
+  }
 }
