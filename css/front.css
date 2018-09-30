@@ -72,6 +72,20 @@ a {
   display: none;
 }
 
+footer {
+  position:fixed;
+  color: white;
+  bottom: 0px;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.ref {
+  padding: 2px;
+  text-decoration: underline;
+}
+
 @media (max-width: 450px) {
   ul {
     text-align: center;
