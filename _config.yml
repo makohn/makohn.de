@@ -1,68 +1,46 @@
-# main text of home
+# Site settings
 name: Marek Kohn
-bio: Welcome to my personal homepage.
+description: "Software Developer"
+url: "https://makohn.de"
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.png
-
-url: https://makohn.de
-
-permalink: /:title/
-
-markdown: kramdown
-highlighter: rouge
-
-# if you don't have any of social below, comment the line
-# facebook: myfacebook
-twitter: makohn_
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-linkedin: marekkohn
-# youtube: myyoutube
-# spotify: myspotify
-github: makohn
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# vimeo: myvimeo
+# Delete the lines you don't need
+# about 7 elements are recomended
+github_username: makohn
+#codepen_username: your_codepen_username_goes_here
+#facebook_username: your_facebook_username_goes_here
+#vk_username: your_vk_username_goes_here
+twitter_username: makohn_
+#google_plus_username: your_google_plus_username_goes_here
+linkedin_username: marekkohn
+#vine_username:  your_vine_username_goes_here
+instagram_username: makohn_
+#flickr_username: your_flickr_username_goes_here
+#steam_username: your_steam_username_goes_here
+#soundcloud_username:  your_soundcloud_username_goes_here
+#stack_of_username: your_stack_overflow_account_id_number_goes_here
+#reddit_username: your_reddit_username_goes_here
+#medium_username:  your_medium_username_goes_here
+#tumblr_username: your_tumblr_username_goes_here
+#weibo_username: your_weibo_username_goes_here
+#blog_url: "/blog"
+telegram_username: makohn 
+paypal_username: makohn
 email: info@makohn.de
+public_key_url: "https://keybase.io/mkohn/key.asc"
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: large
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "assets/images/profile.jpg"
+
+front_img: no
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 # Make .well-known folder accessible
 include: [".well-known"]
-
-# Sections
-projects: false
-about: true
-blog: false
-
-# options
-read-time: true
-show-tags: true
-related: true
-blog-nav-links: false
-show-author: true
-animation: true
-
-sass:
-    sass_dir: _sass
-    style: :compressed
-
-plugins:
-  - jemoji
-  - jekyll-mentions
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-paginate
-
-jekyll-mentions:
-    base_url: https://github.com
