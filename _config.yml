@@ -1,43 +1,13 @@
 # Site settings
 name: Marek Kohn
-description: "Hi! 👋"
+description: "Hi! This site is still under construction! 🏗️ 🚧"
 url: "https://makohn.de"
 
-# Delete the lines you don't need
-# about 7 elements are recomended
 github_username: makohn
-#codepen_username: your_codepen_username_goes_here
-#facebook_username: your_facebook_username_goes_here
-#vk_username: your_vk_username_goes_here
 twitter_username: makohn_
-#google_plus_username: your_google_plus_username_goes_here
-linkedin_username: marekkohn
-#vine_username:  your_vine_username_goes_here
-#instagram_username: makohn_
-#flickr_username: your_flickr_username_goes_here
-#steam_username: your_steam_username_goes_here
-#soundcloud_username:  your_soundcloud_username_goes_here
-#stack_of_username: your_stack_overflow_account_id_number_goes_here
-#reddit_username: your_reddit_username_goes_here
-#medium_username:  your_medium_username_goes_here
-#tumblr_username: your_tumblr_username_goes_here
-#weibo_username: your_weibo_username_goes_here
-#blog_url: "/blog"
-telegram_username: makohn 
-#paypal_username: makohn
-scholar_url: "https://scholar.google.de/citations?user=7unXuVcAAAAJ&hl=de&oi=ao"
 email: info@makohn.de
-public_key_url: "https://keybase.io/mkohn/key.asc"
 
-avatar: yes
-#avatar_img_path: "imgs/avatar.jpg""
-# You can link to your GitHub image. That way it will get updated
-# automatically whenever you change your GitHub profile picture
 avatar_img_path: "https://pics.paypal.com/00/s/OTYwWDk2MFhKUEc/p/ZjhmZWJkNGItMjczYy00YTU1LWFjODYtOGUyMWQ1NDQ5NDFi/image_58.jpg"
-
-front_img: yes
-front_img_path: "assets/images/bg.jpg"
-#front_img_path: "https://external.url/image.jpg"
 
 # Build settings
 markdown: kramdown
