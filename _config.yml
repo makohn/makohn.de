@@ -1,0 +1,18 @@
+# Site settings
+name: Marek Kohn
+description: "Marek Kohn's personal homepage and blog"
+url: "https://makohn.de"
+
+github_username: makohn
+twitter_username: makohn_
+email: info@makohn.de
+
+avatar_img_path: "https://pics.paypal.com/00/s/OTYwWDk2MFhKUEc/p/ZjhmZWJkNGItMjczYy00YTU1LWFjODYtOGUyMWQ1NDQ5NDFi/image_58.jpg"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+# Make .well-known folder accessible
+include: [".well-known"]

@@ -1,0 +1,9 @@
+- title: aoc-2023
+  url: https://www.github.com/makohn/aoc-2023
+  description: Advent of Code solutions 2023
+  language: Kotlin
+
+- title: lambda-architecture-poc
+  url: https://www.github.com/makohn/lambda-architecture-poc
+  description: PoC λ-Architecture implementation for collecting and analysing tweets
+  language: Scala

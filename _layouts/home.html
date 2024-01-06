@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="grid">
+            <div id="dpic">
+                <img src="{{ site.avatar_img_path }}"/>
+            </div>
+            <div id="ddesc">
+                <div class="myname">Marek Kohn</div>
+                <div class="myalias">makohn</div>
+        
+                <div id="dico">
+                    <img src="assets/images/cx.svg" class="iico"/><a class="smedia" href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
+                    <img src="assets/images/cgithub.svg" class="iico"/><a class="smedia" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+                </div>
+                <div class="pgp">PGP: 7CF2 E465 5B2A E44A 4029  838A 8D78 7FFE B375 194B</div>
+            </div>
+        </div>
+
+        <!--
+        <img src="assets/images/cgithub.svg" class="iico"/>Github
+        <a href="https://twitter.com/{{ site.twitter_username }}"></a>
+        <a href="https://github.com/{{ site.github_username }}"></a>
+        -->
+       
+
+        <div class="greeting">
+            Hi, I'm Marek 👋. I'm a Software Engineer at <a href="https://www.semvox.de/">Semvox</a>.
+            <p></p>
+            Welcome to my corner of the internet!
+        </div>
+       
+        <h2>Posts</h2>
+
+        <div class="posts">
+            {% for post in site.posts %}
+            <div class="post row-elem">
+                <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+                <div class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Projects</h2>
+
+        <div class="projects">
+            {% for project in site.data.projects %}
+            <div class="project row-elem">
+                <div class="project-title"><a href="{{ project.url }}">{{ project.title }}</a></div>
+                <div class="project-language">
+                    <span class="prg-language-color {{ project.language | downcase }}"></span>{{ project.language }}
+                </div>
+                <div class="project-description">{{ project.description }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Publications</h2>
+
+        <div class="publications">
+            {% for publication in site.data.publications %}
+            <div class="pub row-elem">
+                <div class="pub-title"><a href="{{ publication.url }}">{{ publication.title }}</a></div>
+                <div class="pub-conference"><i>{{ publication.conference }}</i></div>
+                <div class="pub-authors">{{ publication.authors }}</div>
+            </div>
+            {% endfor %}
+        </div>
+</body>
+
+</html>
